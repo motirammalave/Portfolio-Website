@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BCA Portfolio | Motiram Malave</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="container header-content">
+      <a href="#" class="logo">Motiram Malave</a>
+      <nav class="nav-links" id="navMenu">
+        <a href="#hero" class="nav-item">Home</a>
+        <a href="#about" class="nav-item">About</a>
+        <a href="#skills" class="nav-item">Skills</a>
+        <a href="#projects" class="nav-item">Projects</a>
+        <a href="#certifications" class="nav-item">Certifications</a>
+        <a href="#education" class="nav-item">Education</a>
+        <a href="#contact" class="nav-item">Contact</a>
+      </nav>
+
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" title="">
+        <i class="fa-solid fa-moon"></i>
+      </button>
+      <button class="mobile-menu" id="mobileMenu" aria-label="Toggle navigation menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <div class="hero-heading-row">
+            <div>
+              <p class="pretitle">Hello, I am</p>
+              <h1 class="title">Motiram Malave</h1>
+            </div>
+            <div class="hero-name-photo">
+              <img src="Profile Photo.jpeg" alt="Motiram Malave" />
+            </div>
+          </div>
+          <p class="subtitle"><span id="typing-text"></span><span id="typing-cursor">|</span></p>
+          <div class="hero-buttons">
+            <a class="btn primary-btn" href="Final Motiram Resume3.pdf" download="Motiram_Malave_Resume.pdf">Resume</a>
+            <a class="btn outline-btn" href="#contact">Contact Me</a>
+          </div>
+        </div>
+        <div class="hero-image" data-reveal>
+          <img src="Profile Photo.jpeg" alt="Profile" />
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container" data-reveal>
+        <h2>About Me</h2>
+        <p>
+          I am a motivated <strong>Bachelor of Computer Applications (BCA)</strong> student with a strong interest in software development and modern web technologies. I enjoy building responsive, user-friendly applications and continuously improving my problem-solving skills through hands-on projects.
+          <br><br>
+          I have experience working with technologies like <strong>Java</strong>, <strong>Python</strong>, and <strong>JavaScript</strong>, along with a solid understanding of core programming concepts and web development principles. I am passionate about writing clean, efficient code and learning new tools that enhance development productivity.
+          <br><br>
+          My goal is to grow as a software developer and contribute to real-world projects where I can apply my skills, learn from experienced professionals, and deliver meaningful solutions.
+
+        </p>
+      </div>
+    </section>
+
+    <section id="skills" class="skills">
+      <div class="container" data-reveal>
+        <h2><i class="fas fa-laptop-code"></i> Skills & Abilities</h2>
+
+        <div class="skills-container">
+
+            <div class="skill-card">
+                <img class="skill-icon" src="https://img.icons8.com/color/48/html-5--v1.png" alt="HTML5 logo">
+                <p>HTML5</p>
+            </div>
+
+            <div class="skill-card">
+                <img class="skill-icon" src="https://img.icons8.com/color/48/css3.png" alt="CSS3 logo">
+                <p>CSS3</p>
+            </div>
+
+            <div class="skill-card">
+                <img class="skill-icon" src="https://img.icons8.com/color/48/c-programming.png" alt="C logo">
+                <p>C</p>
+            </div>
+
+            <div class="skill-card">
+                <img class="skill-icon" src="https://img.icons8.com/color/48/c-plus-plus.png" alt="C++ logo">
+                <p>C++</p>
+            </div>
+
+            <div class="skill-card">
+                <img class="skill-icon" src="https://img.icons8.com/color/48/java-coffee-cup-logo.png" alt="Java logo">
+                <p>Java</p>
+            </div>
+
+            <div class="skill-card">
+                <img class="skill-icon" src="https://img.icons8.com/color/48/javascript.png" alt="JavaScript logo">
+                <p>JavaScript</p>
+            </div>
+
+            <div class="skill-card">
+                <img class="skill-icon" src="https://img.icons8.com/color/48/nodejs.png" alt="NodeJS logo">
+                <p>NodeJS</p>
+            </div>
+
+            <div class="skill-card">
+                <img class="skill-icon" src="https://img.icons8.com/color/48/python--v1.png" alt="Python logo">
+                <p>Python</p>
+            </div>
+
+            <div class="skill-card">
+                <img class="skill-icon" src="https://img.icons8.com/color/48/mysql-logo.png" alt="MySQL logo">
+                <p>MySQL</p>
+            </div>
+
+            <div class="skill-card">
+                <img class="skill-icon" src="https://img.icons8.com/color/48/git.png" alt="Git logo">
+                <p>Git</p>
+            </div>
+
+            <div class="skill-card">
+                <img class="skill-icon" src="https://img.icons8.com/ios-filled/48/ffffff/github.png" alt="GitHub logo">
+                <p>GitHub</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container" data-reveal>
+        <h2>Projects</h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            <h3>Portfolio Website</h3>
+            <p>Personal branding website with responsive features, animations, and contacts.</p>
+            <p class="tech">• HTML • CSS • JavaScript</p>
+            <div class="project-links" style="justify-content: center;">
+              <a href="https://github.com/motirammalave/Portfolio-Website.git" class="btn small-btn outline-btn" target="_blank">GitHub</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <h3>ToDo App</h3>
+            <p>CRUD task manager with localStorage and priority labels.</p>
+            <p class="tech">• HTML • CSS • JavaScript</p>
+            <div class="project-links" style="justify-content: center;">
+              <a href="https://github.com/motirammalave/to-do-list-.git" class="btn small-btn outline-btn" target="_blank">GitHub</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <h3>Expense Tracker</h3>
+            <p>Console-based application to manage personal expenses with categorization and reporting.</p>
+            <p class="tech">• HTML • CSS • JavaScript</p>
+            <div class="project-links" style="justify-content: center;">
+              <a href="https://github.com/motirammalave/Expense-Tracker-App.git" class="btn small-btn outline-btn" target="_blank">GitHub</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="certifications" class="certificates">
+      <h2 class="heading">🏆 Certifications</h2>
+      <p class="subtitle">
+        A Snapshot Of The Certifications I've Earned Since College,
+        Backing My Skills With Real-World Learning.
+      </p>
+      <div class="certificate-container">
+        <div class="certificate-card" data-cert="NPTEL.jpg">
+          <img src="NPTEL.jpg" alt="NPTEL Certificate">
+          <div class="card-content">
+            <h3>NPTEL - The Joy of Computing Using Python</h3>
+            <p>Successfully completed a 12-week NPTEL course.</p>
+          </div>
+        </div>
+
+        <div class="certificate-card" data-cert="Eduskill 3.jpg">
+          <img src="Eduskill 3.jpg" alt="Google AI ML">
+          <div class="card-content">
+            <h3>Google AI-ML Virtual Internship</h3>
+            <p>Completed Artificial Intelligence and Machine Learning Virtual Internship.</p>
+          </div>
+        </div>
+
+        <div class="certificate-card" data-cert="Eduskill 1.jpg">
+          <img src="Eduskill 1.jpg" alt="Java Full Stack">
+          <div class="card-content">
+            <h3>Java Full Stack Developer</h3>
+            <p>Completed EduSkills Java Full Stack Developer Virtual Internship.</p>
+          </div>
+        </div>
+
+        <div class="certificate-card" data-cert="Eduskill 2.jpg">
+          <img src="Eduskill 2.jpg" alt="Software Testing">
+          <div class="card-content">
+            <h3>Software Testing & Automation</h3>
+            <p>Completed Full Stack Software Testing & Automation Engineering Internship.</p>
+          </div>
+        </div>
+
+        <div class="certificate-card" data-cert="Responsive Web Design.jpg">
+          <img src="Responsive Web Design.jpg" alt="Responsive Web Design">
+          <div class="card-content">
+            <h3>Responsive Web Design</h3>
+            <p>Earned Responsive Web Design Certification from FreeCodeCamp.</p>
+          </div>
+        </div>
+
+      <!-- Certificate Lightbox Modal -->
+      <div class="cert-modal" id="certModal">
+        <div class="cert-modal-content">
+          <span class="cert-modal-close">&times;</span>
+          <img id="certModalImg" src="" alt="Certificate">
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section">
+      <div class="container" data-reveal>
+        <h2>Education</h2>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="edu-image-container" data-edu-img="DYPSEM.JPG">
+              <img src="DYPSEM.JPG" alt="D. Y. Patil University" class="edu-image">
+            </div>
+            <div class="timeline-content">
+              <h3>Bachelor of Computer Applications (BCA)</h3>
+              <span>2024 - 2027</span>
+              <p>Studying at D. Y. Patil University with focus on Software Development, Algorithms, and Database Management.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="edu-image-container" data-edu-img="">
+              <img src="" alt="School Logo" class="edu-image">
+            </div>
+            <div class="timeline-content">
+              <h3>Senior Secondary Certificate</h3>
+              <span>2022 - 2024</span>
+              <p>Completed Higher Secondary Education in the Science stream, developing strong analytical, mathematical, and problem-solving skills.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Education Image Modal -->
+      <div class="edu-modal" id="eduModal">
+        <div class="edu-modal-content">
+          <span class="edu-modal-close">&times;</span>
+          <img id="eduModalImg" src="" alt="Education">
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container" data-reveal>
+        <h2>Contact</h2>
+        <div class="contact-grid">
+          <div class="contact-info">
+            <p><i class="fa-solid fa-envelope"></i> <a href="mailto:motirammalave@gmail.com">motirammalave@gmail.com</a></p><br>
+            <p><i class="fa-solid fa-phone"></i> <a href="tel:+917620523449">+91 76205 23449</a></p><br>
+            <p><i class="fa-brands fa-linkedin"></i> <a href="https://linkedin.com/in/motiram-malave-869a0a379/" target="_blank" rel="noopener noreferrer">linkedin.com/in/motiram-malave</a></p><br>
+            <p><i class="fa-brands fa-github"></i> <a href="https://github.com/motirammalave" target="_blank" rel="noopener noreferrer">github.com/motirammalave</a></p>
+          </div>
+          <form class="contact-form" id="contactForm" novalidate>
+            <input type="text" placeholder="Your Name" name="name" required />
+            <input type="email" placeholder="Your Email" name="email" required />
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn primary-btn">Send Message</button>
+            <p class="form-success" id="formSuccess" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <p>&copy; <span id="year"></span> Motiram Malave. All rights reserved.</p>
+      <div class="social-links">
+        <a href="https://github.com/motirammalave" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="https://linkedin.com/in/motiram-malave" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://twitter.com/motirammalave" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
